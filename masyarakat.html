@@ -1,0 +1,20 @@
+<!doctype html><html lang="id"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ResQCity – Masyarakat</title><link rel="stylesheet" href="style.css"><body>
+<div class="phones">
+<div><div class="cap">1. Masuk dan daftar</div><div class="phone"><div class="body"><h2>Masuk ke ResQCity</h2><div class="row"><span class="btn sm blk">Masuk</span>&nbsp;<span class="btn sm sec blk">Daftar</span></div>
+<div class="err"><label for="e">Email</label><input id="e" value="elfina@email"><div class="msg">Format email belum benar. Contoh: nama@email.com</div></div>
+<label for="p">Kata sandi</label><input id="p" type="password" value="password"><label for="n">Nomor telepon (khusus daftar)</label><input id="n" placeholder="08xxxxxxxxxx"><br><br><a class="btn blk" href="#">Masuk</a></div></div></div>
+<div><div class="cap">2. Beranda</div><div class="phone"><div class="body"><div class="demo">Sistem demonstrasi, tidak terhubung dengan layanan darurat resmi.</div><h2>Butuh bantuan darurat?</h2><p class="mut">Tekan tombol, lalu pilih jenis kejadian.</p><button class="sos">SOS</button>
+<h3>Laporan terakhir</h3><div class="card"><div class="row"><b>RSQ-20261110-0001</b><span class="badge s-p s">Sedang ditangani</span></div><div class="mut">Kebakaran · 10 Nov 2026, 08.12</div></div></div></div></div>
+<div><div class="cap">3. Formulir laporan</div><div class="phone"><div class="body"><h2>Laporkan kejadian</h2><label>Jenis kejadian</label><div class="chips"><span class="chip on">Kebakaran</span><span class="chip">Medis</span><span class="chip">Keamanan</span><span class="chip">Bencana</span></div>
+<label>Lokasi</label><div class="map"><i style="left:150px;top:55px;background:var(--crit)"></i></div><div class="mut">GPS aktif: -5.0151, 104.1013 · <a href="#">Tandai lokasi manual</a></div>
+<label for="d">Deskripsi</label><textarea id="d" rows="3" placeholder="Apa yang terjadi?"></textarea><label>Foto (opsional, maks 5 MB)</label><input type="file"><br><br><a class="btn blk" href="#">Kirim laporan</a></div></div></div>
+<div><div class="cap">4. Riwayat laporan</div><div class="phone"><div class="body"><h2>Riwayat laporan</h2>
+<div class="card"><div class="row"><b>RSQ-20261110-0001</b><span class="badge s-p s">Sedang ditangani</span></div><div>Kebakaran lahan</div><div class="mut">10 Nov 2026</div></div>
+<div class="card"><div class="row"><b>RSQ-20261104-0007</b><span class="badge s-d s">Selesai</span></div><div>Kecelakaan lalu lintas</div><div class="mut">4 Nov 2026</div></div>
+<div class="card"><div class="row"><b>RSQ-20261030-0003</b><span class="badge s-x s">Ditolak</span></div><div>Keamanan</div><div class="mut">30 Okt 2026</div></div></div></div></div>
+<div><div class="cap">5. Detail laporan</div><div class="phone"><div class="body"><div class="row"><h2>RSQ-20261110-0001</h2><span class="badge b-tinggi">Tinggi</span></div><div class="mut">Kebakaran · Dikirim 10 Nov 2026, 08.12</div><div class="map" style="margin:10px 0"><i style="left:150px;top:55px;background:var(--hi)"></i></div>
+<h3>Perkembangan</h3><ul class="tl"><li class="done">Menunggu verifikasi<small>08.12</small></li><li class="done">Terverifikasi<small>08.20 · prioritas Tinggi</small></li><li class="now"><b>Sedang ditangani</b><small>08.35</small></li><li>Selesai</li></ul></div></div></div>
+<div><div class="cap">6. Notifikasi</div><div class="phone"><div class="body"><h2>Notifikasi</h2>
+<div class="card"><b>Laporan sedang ditangani</b><div class="mut">RSQ-20261110-0001 · 08.35</div></div><div class="card"><b>Laporan terverifikasi</b><div class="mut">RSQ-20261110-0001 · 08.20</div></div>
+<div class="toast">Laporan terkirim. Kode: RSQ-20261110-0001</div></div></div></div>
+</div><script src="app.js"></script>
